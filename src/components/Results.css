@@ -1,0 +1,51 @@
+#title {
+    width: 40%;
+}
+
+#description {
+    flex-grow: 1;
+}
+
+.greenStar {
+    color: #24995c;
+}
+
+.greyStar {
+    color: #aaaaaa;
+}
+
+button {
+    background: none!important;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+.wrapper {
+    max-width: 1080p;
+    margin: 30px auto;
+}
+
+#title {
+    vertical-align: top;
+    display: inline-block;
+    width: 250px;
+    margin-right: 70px;
+}
+
+#description {
+    vertical-align: top;
+    display: inline-block;
+    width: 60%;
+}
+
+#description ul {
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+}

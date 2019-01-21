@@ -1,0 +1,65 @@
+body, html {
+    width: 1080px;
+    margin: auto;
+    height: 100%;
+    font-size: 14px;
+}
+
+.pageTitle {
+    height: 90px;
+    width: 100%;
+    background-image: linear-gradient(to right, #1e5696, #24995c);
+    color: white;
+    text-align: center;
+    display: table;
+    margin-top: 10px;
+}
+
+.main h1 {
+    width: 100%;
+    vertical-align: center;
+}
+
+.search {
+    
+}
+
+.searchContainer {
+    height: 45px;
+    margin: 15px;
+    display: flex;
+}
+
+#searchBar {
+    padding: 4px 10px;
+    margin-right: 15px;
+    flex-grow: 1;
+    border: 1px solid #aaaaaa;
+    border-radius: 2px;
+    font-size: 24px;
+}
+
+.searchResults {
+    margin: 30px 20px;
+}
+
+.searchIconContainer {
+    border-radius: 2px;
+    background: #24995c;
+    width: 40px;
+    position: relative;
+}
+
+.fa-search {
+    font-size: 25px;
+    position: absolute;
+    padding: 0;
+    left: 5px;
+    top: 8px;
+    font-size: 30px;
+    color: white;
+}
+
+p {
+    margin: 0;
+}
